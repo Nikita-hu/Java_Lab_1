@@ -120,7 +120,7 @@ public class Tasks {
 
     public String listNums(int x) {
         String[] a = new String[x + 1];
-        for (int i = 0; i < x; i++) {
+        for (int i = 0; i <= x; i++) {
             a[i] = String.valueOf(i);
         }
         return String.join(" ", a);
